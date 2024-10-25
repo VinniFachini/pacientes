@@ -1,0 +1,204 @@
+[
+    {
+        "id": 1,
+        "nome": "João",
+        "cpf": "111.111.111-11",
+        "nascimento": "27/01/2001",
+        "prontuarios": [
+            {
+                "id": 1,
+                "pa": "120/90",
+                "fr": 30,
+                "fc": 120,
+                "temperatura": "38,9",
+                "spo2": 94,
+                "dextro": "",
+                "altura": 190,
+                "peso": 87.8,
+                "glasgow": "",
+                "deambula": "Sim",
+                "diurese": "",
+                "evacuacao": "",
+                "alimentacao": "",
+                "admissao": "",
+                "evolucao": ""
+            },
+            {
+                "id": 2,
+                "pa": "120/90",
+                "fr": 30,
+                "fc": 120,
+                "temperatura": "38,9",
+                "spo2": 94,
+                "dextro": "",
+                "altura": 190,
+                "peso": 87.8,
+                "glasgow": "",
+                "deambula": "Sim",
+                "diurese": "",
+                "evacuacao": "",
+                "alimentacao": "",
+                "admissao": "",
+                "evolucao": ""
+            }
+        ],
+        "historico": {
+            "identificacao": {
+                "nome": "João",
+                "idade": 30,
+                "nascimento": "",
+                "leito": 1,
+                "estado_civil": "Solteiro",
+                "filhos": [
+                    "12",
+                    "15"
+                ],
+                "genero": "Masc",
+                "escolaridade": "Ensino Médio Completo",
+                "etnia": "branco",
+                "ocupacao": "Servente de Pedreiro",
+                "naturalidade": "Brasileiro",
+                "procedencia": "Não",
+                "religiao": "Católico",
+                "cuidador": "Sim",
+                "grupo_sanguineo": "AB",
+                "fator_rh": "+"
+            },
+            "informacoes_doenca_tratamento": {
+                "motivo_internacao": "",
+                "diagnostico_medico": "",
+                "doencas_cronicas": "",
+                "fatores_risco": "",
+                "alergias_medicamentos": false,
+                "especificar": "",
+                "tratamentos_anteriores": "",
+                "cirurgias": true,
+                "outros_tratamentos": ""
+            },
+            "socio_economicos_culturais": {
+                "moradia": "Área Urbana",
+                "animais_domesticos": "Nenhum"
+            },
+            "higiene": {
+                "habito_tomar_banho": "Tarde",
+                "atividade_fisica_trabalho": "Em pé",
+                "fumo": "Sim",
+                "alcool": "Sim",
+                "sono_repouso": "Sim",
+                "exercicios_fisicos": "Sim",
+                "eliminacao_urinaria": "Sim",
+                "eliminacoes_intestinais": "Sim"
+            }
+        },
+        "diagnosticos": [
+            {
+                "id": 2,
+                "prontuario": 2,
+                "problemas_saude": "Nenhum",
+                "riscos": "Nenhum",
+                "sinais_ou_sintomas": "Dor no cu",
+                "aprendizado": "Nenhum",
+                "recursos": "Nenhum",
+                "estado_de_saude": "Tudo certo kkkk"
+            }
+        ],
+        "planejamentos": [
+            {
+                "id": 1,
+                "prontuario_id": 1,
+                "sinais_e_sintomas": "",
+                "resultados_esperados": "",
+                "intervencoes": "",
+                "observacoes": "",
+                "implementacao": {
+                    "lavar_maos": true,
+                    "uso_luva": true,
+                    "orientar_cliente": true,
+                    "sinais_vitais": true,
+                    "administrar_medicacao": true,
+                    "frequencia_cardiaca": true,
+                    "banho_hidratacao": true,
+                    "higiene_intima": true,
+                    "higiene_oral": true,
+                    "dispneia_saturacao": true,
+                    "auxilio_deambulacao": true,
+                    "estimulo_deambulacao": true,
+                    "medicacao_oral": true,
+                    "ingesta_hidrica": true,
+                    "distensao_abdominal": true,
+                    "elevar_decubito": true,
+                    "jogos_cognitivos": true,
+                    "elevar_mmii": true,
+                    "perfusao_extremidades": true,
+                    "anotar_diurese": true,
+                    "anotar_evacuacao": true,
+                    "integridade_pele": true,
+                    "alteracoes_neurologicas": true,
+                    "mudanca_decubito": true,
+                    "sapatos_confortaveis": true,
+                    "ouvir_cliente": true,
+                    "manter_ambiente_limpo": true
+                }
+            }
+        ],
+        "avaliacao_enfermagem": {
+            "processo_deliberado": true,
+            "verificacao_respostas": true,
+            "determinacao_alcance_resultados": true,
+            "verificacao_necessidade_mudancas": true,
+            "investigacao_abranjente": true,
+            "decisao_modificar_manter_encerrar": true,
+            "investigacao_continua": true,
+            "revisao_diagnosticos_intervencoes": true,
+            "tabela_anotacao": [
+                {
+                    "nhb": "Integridade física",
+                    "diagnostico": "Colocação de pele alterada (local)",
+                    "resultado": "Coloração e pele normal",
+                    "intervencoes": [
+                        "Acompanhar evolução da cicatrização",
+                        "Proteger área de apoio e pressão com colchão de casca de ovo",
+                        "Proteger proeminências ósseas",
+                        "Descrever características da úlcera",
+                        "Inspecionar a pele em busca de pontos hiperemiados ou isquêmicos"
+                    ]
+                },
+                {
+                    "nhb": "Integridade física",
+                    "diagnostico": "Escoriação da pele",
+                    "resultado": "Integridade tissular restabelecida",
+                    "intervencoes": [
+                        "Monitorar sinais e sintomas de infecção da úlcera",
+                        "Observar e registrar edemas e hiperemia em proeminências ósseas",
+                        "Comunicar alterações na cor e temperatura das extremidades"
+                    ]
+                },
+                {
+                    "nhb": "Integridade física",
+                    "diagnostico": "Ferida cirúrgica contaminada",
+                    "resultado": "Cicatrização da ferida cirúrgica, infecção ausente",
+                    "intervencoes": [
+                        "Implantar protocolo assistencial de prevenção de UPP",
+                        "Manter lençóis limpos, secos e esticados",
+                        "Colocar coxins de proteção e faixas de segurança",
+                        "Fazer curativos",
+                        "Fazer mudança de decúbito"
+                    ]
+                },
+                {
+                    "nhb": "Integridade física",
+                    "diagnostico": "Úlcera por pressão",
+                    "resultado": "Integridade tissular restabelecida",
+                    "intervencoes": [
+                        "Hidratar a pele"
+                    ]
+                },
+                {
+                    "nhb": "Integridade física",
+                    "diagnostico": "Risco de úlcera por pressão",
+                    "resultado": "Risco ausente de úlcera por pressão"
+                }
+            ]
+        }
+    }
+]
