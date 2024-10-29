@@ -100,6 +100,8 @@ const submitForm = async () => {
 
   // Salva a lista de pacientes atualizada no sessionStorage
   sessionStorage.setItem("pacientes", JSON.stringify(pacientes));
+
+  router.push("/pacientes");
 };
 </script>
 
