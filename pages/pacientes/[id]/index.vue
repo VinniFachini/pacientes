@@ -44,16 +44,16 @@
           Diagnósticos
         </button>
         <button
-          @click="viewImplementacoes"
-          class="mt-4 bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition-colors"
-        >
-          Implementações
-        </button>
-        <button
           @click="viewPlanejamentos"
           class="mt-4 bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition-colors"
         >
           Planejamentos
+        </button>
+        <button
+          @click="viewImplementacoes"
+          class="mt-4 bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition-colors"
+        >
+          Implementações
         </button>
         <button
           @click="viewAvaliacao"

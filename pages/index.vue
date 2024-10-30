@@ -1,15 +1,6 @@
 <template>
   <div class="flex flex-col min-h-screen">
-    <header class="bg-gray-800 text-white p-4 text-center">
-      <nav>
-        <NuxtLink to="/" class="text-white hover:text-indigo-400 mx-4"
-          >Página Inicial</NuxtLink
-        >
-        <NuxtLink to="/pacientes" class="text-white hover:text-indigo-400 mx-4"
-          >Pacientes</NuxtLink
-        >
-      </nav>
-    </header>
+    <Header />
 
     <section class="main-content flex-grow flex flex-col items-center justify-center p-6">
       <div class="image-container mb-6">
@@ -29,18 +20,6 @@
       </div>
     </section>
 
-    <footer class="bg-gray-800 text-white p-4 text-center">
-      <p>&copy; 2024 - Trabalho de Conclusão de Curso - ETEC Amim Jundi</p>
-    </footer>
+    <Footer />
   </div>
 </template>
-
-<script>
-export default {
-  name: "ThankYouPage",
-};
-</script>
-
-<style scoped>
-/* Estilos adicionais, se necessário */
-</style>
