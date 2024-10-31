@@ -1,10 +1,10 @@
 <template>
   <div class="container mx-auto p-6">
-    <h1 class="text-4xl font-bold text-indigo-600 mb-4">Diagnósticos</h1>
+    <h1 class="text-4xl font-bold text-indigo-600">Diagnósticos</h1>
 
     <button
       @click="createDiagnostico"
-      class="mt-4 bg-green-600 text-white font-semibold py-2 px-4 rounded hover:bg-green-700 transition-colors"
+      class="my-4 bg-green-600 text-white font-semibold py-2 px-4 rounded hover:bg-green-700 transition-colors"
     >
       Novo Diagnóstico
     </button>
