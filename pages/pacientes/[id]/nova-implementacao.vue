@@ -24,7 +24,7 @@
         type="submit"
         class="mt-4 bg-indigo-600 text-white font-semibold py-2 px-4 rounded hover:bg-indigo-700 transition-colors"
       >
-        Criar Planejamento
+        Criar Implementação
       </button>
     </form>
     <button
