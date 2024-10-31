@@ -9,7 +9,14 @@
       Nova Avaliação
     </button>
 
-    <div v-if="paciente && paciente.avaliacao_enfermagem.length > 0" class="">
+    <div
+      v-if="
+        paciente &&
+        paciente.avaliacao_enfermagem &&
+        paciente.avaliacao_enfermagem.length > 0
+      "
+      class=""
+    >
       <div
         v-for="(avaliacao, avIndex) in paciente.avaliacao_enfermagem"
         :key="avIndex"

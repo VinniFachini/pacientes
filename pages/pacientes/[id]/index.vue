@@ -110,27 +110,27 @@ onMounted(async () => {
 // Função para ver os históricos do paciente
 const viewHistoricos = () => {
   const id = Number(route.params.id);
-  router.push(`/pacientes/${id}/historico`); // Redireciona para a rota de históricos
+  router.push(`/pacientes/${id}/historico`);
 };
 const newProntuario = () => {
   const id = Number(route.params.id);
-  router.push(`/pacientes/${id}/novo-prontuario`); // Redireciona para a rota de históricos
+  router.push(`/pacientes/${id}/novo-prontuario`);
 };
 const viewDiagnosticos = () => {
   const id = Number(route.params.id);
-  router.push(`/pacientes/${id}/diagnosticos`); // Redireciona para a rota de históricos
+  router.push(`/pacientes/${id}/diagnosticos`);
 };
 const viewPlanejamentos = () => {
   const id = Number(route.params.id);
-  router.push(`/pacientes/${id}/planejamentos`); // Redireciona para a rota de históricos
+  router.push(`/pacientes/${id}/planejamentos`);
 };
 const viewImplementacoes = () => {
   const id = Number(route.params.id);
-  router.push(`/pacientes/${id}/implementacao`); // Redireciona para a rota de históricos
+  router.push(`/pacientes/${id}/implementacao`);
 };
 const viewAvaliacao = () => {
   const id = Number(route.params.id);
-  router.push(`/pacientes/${id}/avaliacao`); // Redireciona para a rota de históricos
+  router.push(`/pacientes/${id}/avaliacao`);
 };
 
 // Função para voltar à página anterior

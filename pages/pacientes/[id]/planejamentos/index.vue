@@ -9,7 +9,7 @@
       Novo Planejamento
     </button>
 
-    <div v-if="planejamentos.length" class="bg-white py-4">
+    <div v-if="planejamentos && planejamentos.length" class="bg-white py-4">
       <div
         v-for="planejamento in planejamentos"
         :key="planejamento.id"
